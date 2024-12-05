@@ -1,0 +1,41 @@
+body {
+    background-color: black; 
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+}
+h1 { background-color: #4CAF50; /* Color de fondo */ color: white; /* Color del texto */ padding: 20px; /* Espaciado interno */ text-align: center; /* Alineación del texto */ border-radius: 10px; /* Esquinas redondeadas (opcional) */ }
+.menu { 
+    list-style: none;
+    padding: 0%;
+    background: purple;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+ }
+ .menu li a{ 
+    text-decoration: none;
+    color: white; 
+    padding: 20px;  
+    display: block;
+}
+ .menu li{
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+ }
+ .menu li a:hover {
+    background: green;
+ }
+h2 { text-align: center;}
+p { text-align: center; color: white;}
+.borde-curveado { 
+    background-color: blue;
+    padding: 2px;
+    border-radius: 20px;
+    width: 45%;
+    margin: 20px auto;
+}
